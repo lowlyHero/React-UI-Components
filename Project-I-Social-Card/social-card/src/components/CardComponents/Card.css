@@ -1,1 +1,9 @@
-/* All styles for your Card Components live here */
+.banner-bottom {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+img.banner-img {
+    width: 100%;
+}
