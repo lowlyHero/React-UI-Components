@@ -1,1 +1,9 @@
-/* All styles for your header Components live here */
+.header-container {
+    display: flex;
+}
+
+.thumb-img {
+    height: 50px;
+    margin-top: 1.75em;
+    padding: 5px;
+}

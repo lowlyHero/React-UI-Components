@@ -1,9 +1,15 @@
+a {
+    text-decoration: none;
+    color: #657887;
+}
+
 .banner-bottom {
-    border: 1px solid #999;
+    border: 2px solid #EBF0F2;
     border-radius: 5px;
     padding: 10px;
 }
 
-img.banner-img {
-    width: 100%;
+.banner-img {
+    height: auto;
+    width: 500px;
 }
