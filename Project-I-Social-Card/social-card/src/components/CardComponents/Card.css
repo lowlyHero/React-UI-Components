@@ -3,13 +3,15 @@ a {
     color: #657887;
 }
 
-.banner-bottom {
-    border: 2px solid #EBF0F2;
+.banner-wrapper {
+    border: 2px solid #E7EDF0;
     border-radius: 5px;
-    padding: 10px;
+    margin-left: 50px;
+    padding: 7.5px;
+    width: 630px;
 }
 
 .banner-img {
     height: auto;
-    width: 500px;
+    width: 630px;
 }
