@@ -1,6 +1,6 @@
-.calc-wrapper {
-    border: 1px solid #000;
-    height: 750px;
-    margin: 10px;
-    width: 500px;
+.display {
+    background-color: #000;
+    color: #FFF;
+    height: 125px;
+    width: 100%;
 }
