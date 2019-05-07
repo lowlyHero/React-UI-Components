@@ -3,7 +3,7 @@ import './Button.css';
 
 const ActionButton = props => {
     return (
-        <button className={`btn-lg ${props.className}`}>{props.text}</button>
+        <button className={`${props.className}`}>{props.text}</button>
     );
 };
 

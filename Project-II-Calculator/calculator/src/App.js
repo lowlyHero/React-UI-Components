@@ -13,22 +13,22 @@ const App = () => {
         <NumberButton text='/' />
       </div>
       <div className='btn-wrapper'>
-       <NumberButton text='X' />
-        <NumberButton text='-' />
-        <NumberButton text='+' />
-        <NumberButton text='=' />
-      </div>
-      <div className='btn-wrapper'>
         <NumberButton text='7' />
         <NumberButton text='8' />
         <NumberButton text='9' />
         <NumberButton text='X' />
       </div>
       <div className='btn-wrapper'>
+        <NumberButton text='4' />
+        <NumberButton text='5' />
+        <NumberButton text='6' />
+        <NumberButton className='operator' text='-' />
+      </div>
+      <div className='btn-wrapper'>
         <NumberButton text='1' />
         <NumberButton text='2' />
         <NumberButton text='3' />
-        <NumberButton text='+' />
+        <NumberButton className='operator' text='+' />
       </div>
       <div className='btn-wrapper'>
         <ActionButton className='btn-lg' text='0'/>
