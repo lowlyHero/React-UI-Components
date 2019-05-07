@@ -7,32 +7,32 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 const App = () => {
   return (
     <div className="calc-wrapper">
-    <CalculatorDisplay />
-    <div className='clear-btn'>
-      <ActionButton text='clear'/>
-      <NumberButton text='/' />
+      <CalculatorDisplay />
+      <div className='clear-btn'>
+        <ActionButton className='btn-lg' text='clear'/>
+        <NumberButton text='/' />
       </div>
       <div className='btn-wrapper'>
-      <NumberButton text='X' />
-      <NumberButton text='-' />
-      <NumberButton text='+' />
-      <NumberButton text='=' />
+       <NumberButton text='X' />
+        <NumberButton text='-' />
+        <NumberButton text='+' />
+        <NumberButton text='=' />
       </div>
       <div className='btn-wrapper'>
-      <NumberButton text='7' />
-      <NumberButton text='8' />
-      <NumberButton text='9' />
-      <NumberButton text='X' />
+        <NumberButton text='7' />
+        <NumberButton text='8' />
+        <NumberButton text='9' />
+        <NumberButton text='X' />
       </div>
       <div className='btn-wrapper'>
-      <NumberButton text='1' />
-      <NumberButton text='2' />
-      <NumberButton text='3' />
-      <NumberButton text='+' />
+        <NumberButton text='1' />
+        <NumberButton text='2' />
+        <NumberButton text='3' />
+        <NumberButton text='+' />
       </div>
       <div className='btn-wrapper'>
-      <ActionButton text='0'/>
-      <NumberButton text='='/>
+        <ActionButton className='btn-lg' text='0'/>
+        <NumberButton text='='/>
       </div>
     </div> 
     //end calc-wrapper
