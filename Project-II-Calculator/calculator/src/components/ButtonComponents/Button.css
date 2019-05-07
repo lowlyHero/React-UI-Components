@@ -1,5 +1,6 @@
 .btn-lg {
     background-color: #fff;
+    height: 100px;
     font-size: 3em;
     width: 75%;
 }
@@ -8,11 +9,13 @@
     background-color: #A0001E;
     color: #fff;
     font-size: 3em;
+    height: 100px;
     width: 25%;
 }
 
 .num-btn {
     background-color: #fff;
     font-size: 3em;
+    height: 100px;
     width: 25%;
 }

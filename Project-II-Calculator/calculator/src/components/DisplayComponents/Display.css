@@ -1,11 +1,13 @@
 .display {
+    align-items: center;
     background-color: #000;
     color: #FFF;
-    font-size: 5rem;
-    height: 125px;
-    width: 100%;
+    display: flex;
+    font-size: 4.5em;
+    height: 125px; 
+    justify-content: flex-end;
 }
 
 .output {
-    font-weight: 500;
+    padding-right: 15px;
 }
