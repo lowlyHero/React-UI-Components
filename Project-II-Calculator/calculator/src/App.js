@@ -10,29 +10,29 @@ const App = () => {
       <CalculatorDisplay />
       <div className='clear-btn'>
         <ActionButton className='btn-lg' text='clear'/>
-        <NumberButton text='/' />
+        <NumberButton className='operator' text='/' />
       </div>
       <div className='btn-wrapper'>
-        <NumberButton text='7' />
-        <NumberButton text='8' />
-        <NumberButton text='9' />
-        <NumberButton text='X' />
+        <NumberButton className='num-btn' text='7' />
+        <NumberButton className='num-btn' text='8' />
+        <NumberButton className='num-btn' text='9' />
+        <NumberButton className='operator' text='X' />
       </div>
       <div className='btn-wrapper'>
-        <NumberButton text='4' />
-        <NumberButton text='5' />
-        <NumberButton text='6' />
+        <NumberButton className='num-btn' text='4' />
+        <NumberButton className='num-btn' text='5' />
+        <NumberButton className='num-btn' text='6' />
         <NumberButton className='operator' text='-' />
       </div>
       <div className='btn-wrapper'>
-        <NumberButton text='1' />
-        <NumberButton text='2' />
-        <NumberButton text='3' />
+        <NumberButton className='num-btn' text='1' />
+        <NumberButton className='num-btn' text='2' />
+        <NumberButton className='num-btn' text='3' />
         <NumberButton className='operator' text='+' />
       </div>
       <div className='btn-wrapper'>
         <ActionButton className='btn-lg' text='0'/>
-        <NumberButton text='='/>
+        <NumberButton className='operator' text='='/>
       </div>
     </div> 
     //end calc-wrapper

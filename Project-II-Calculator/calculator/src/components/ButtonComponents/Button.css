@@ -1,3 +1,18 @@
 .btn-lg {
+    background-color: #fff;
+    font-size: 3em;
     width: 75%;
+}
+
+.operator {
+    background-color: #A0001E;
+    color: #fff;
+    font-size: 3em;
+    width: 25%;
+}
+
+.num-btn {
+    background-color: #fff;
+    font-size: 3em;
+    width: 25%;
 }
