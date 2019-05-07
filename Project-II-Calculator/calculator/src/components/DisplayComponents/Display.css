@@ -1,6 +1,11 @@
 .display {
     background-color: #000;
     color: #FFF;
+    font-size: 5rem;
     height: 125px;
     width: 100%;
+}
+
+.output {
+    font-weight: 500;
 }
