@@ -1,14 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = () => {
+const ActionButton = props => {
     return (
-        <div className='action-wrapper'>
-            
-        </div>
+        <button className={`btn-lg ${props.className}`}>{props.text}</button>
     );
 };
-
-
 
 export default ActionButton;
