@@ -1,0 +1,13 @@
+.display {
+    align-items: center;
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+    font-size: 4.5em;
+    height: 125px; 
+    justify-content: flex-end;
+}
+
+.output {
+    padding-right: 15px;
+}

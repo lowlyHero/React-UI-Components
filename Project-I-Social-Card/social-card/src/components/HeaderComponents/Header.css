@@ -1,1 +1,14 @@
-/* All styles for your header Components live here */
+.header-container {
+    display: flex;
+}
+
+.header-content-wrapper {
+    margin-left: 5px;
+    width: 625px;
+}
+
+.thumb-img {
+    height: 50px;
+    margin-top: 1.75em;
+    padding: 5px;
+}

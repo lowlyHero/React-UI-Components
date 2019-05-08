@@ -1,1 +1,17 @@
-/* All styles for your Card Components live here */
+a {
+    text-decoration: none;
+    color: #657887;
+}
+
+.banner-wrapper {
+    border: 2px solid #E7EDF0;
+    border-radius: 5px;
+    /* margin-left: 50px; */
+    /* padding: 7.5px; */
+    width: 630px;
+}
+
+.banner-img {
+    height: auto;
+    width: 630px;
+}
